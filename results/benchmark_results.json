@@ -1,0 +1,63 @@
+{
+  "experiment1_stage_breakdown": {
+    "fetch/load": 0.025300243000003775,
+    "parse": 0.003792503999989094,
+    "grid construction": 0.05798514999997906,
+    "serialisation": 0.0004827110000178436,
+    "inference stub": 1.600400003098912e-05
+  },
+  "experiment2_grid_scaling": {
+    "8": {
+      "latency_s": 0.05321445499998845,
+      "throughput_windows_per_s": 3157.0369366751283,
+      "memory_mb": 0.08203125
+    },
+    "16": {
+      "latency_s": 0.05552092199997105,
+      "throughput_windows_per_s": 3025.8863496554973,
+      "memory_mb": 0.328125
+    },
+    "32": {
+      "latency_s": 0.05892596699999331,
+      "throughput_windows_per_s": 2851.0350962932707,
+      "memory_mb": 1.3125
+    },
+    "64": {
+      "latency_s": 0.06651074400002699,
+      "throughput_windows_per_s": 2525.907693949895,
+      "memory_mb": 5.25
+    }
+  },
+  "experiment3_serving_scaling": {
+    "1": {
+      "throughput_req_per_s": 265841.494655638,
+      "p50_latency_s": 8.414999967953918e-07,
+      "p95_latency_s": 1.0585000154605929e-06,
+      "wall_s": 0.0007523280000327759
+    },
+    "2": {
+      "throughput_req_per_s": 176004.7450915318,
+      "p50_latency_s": 1.587500008781717e-06,
+      "p95_latency_s": 3.5417199967469026e-05,
+      "wall_s": 0.0011363329999767302
+    },
+    "4": {
+      "throughput_req_per_s": 68296.40091586727,
+      "p50_latency_s": 1.0696000003918016e-05,
+      "p95_latency_s": 0.00021635740000362967,
+      "wall_s": 0.0029284120000170333
+    },
+    "8": {
+      "throughput_req_per_s": 63677.253115616026,
+      "p50_latency_s": 1.0585999973500293e-05,
+      "p95_latency_s": 0.0005272450999825647,
+      "wall_s": 0.003140839000025153
+    },
+    "16": {
+      "throughput_req_per_s": 55548.673691981574,
+      "p50_latency_s": 1.088599998411155e-05,
+      "p95_latency_s": 0.0009728271000199128,
+      "wall_s": 0.003600446000007196
+    }
+  }
+}
